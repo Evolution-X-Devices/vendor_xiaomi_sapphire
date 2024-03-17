@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter sapphire topaz,$(TARGET_DEVICE)),)
+ifneq ($(filter sapphire topaz xun,$(TARGET_DEVICE)),)
 
 endif
