@@ -79,3 +79,4 @@ getsockname: 1
 recvfrom: 1
 madvise: 1
 gettimeofday: 1
+fstatfs64: 1

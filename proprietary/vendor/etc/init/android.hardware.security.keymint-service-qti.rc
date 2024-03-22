@@ -5,6 +5,10 @@
 on init
     start vendor.keymint-qti
 
+on property:vendor.keymint.quickboot=true
+   stop vendor.keymint-qti
+   start vendor.keymint-qti
+
 service vendor.keymint-qti /vendor/bin/hw/android.hardware.security.keymint-service-qti
     class early_hal
     user system

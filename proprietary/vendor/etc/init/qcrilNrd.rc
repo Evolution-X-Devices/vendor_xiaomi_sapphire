@@ -48,7 +48,7 @@ on property:persist.radio.multisim.config=dsds && property:ro.baseband=msm
     start vendor.qcrild
     start vendor.qcrild2
 
-on property:persist.radio.multisim.config=dsds && property:ro.baseband=msm
+on property:persist.radio.multisim.config=dsds && property:ro.baseband=mdm
     stop vendor.qcrild
     stop vendor.qcrild2
     start vendor.qcrild
@@ -60,7 +60,7 @@ on property:persist.radio.multisim.config=DSDS && property:ro.baseband=msm
     start vendor.qcrild
     start vendor.qcrild2
 
-on property:persist.radio.multisim.config=DSDS && property:ro.baseband=msm
+on property:persist.radio.multisim.config=DSDS && property:ro.baseband=mdm
     stop vendor.qcrild
     stop vendor.qcrild2
     start vendor.qcrild

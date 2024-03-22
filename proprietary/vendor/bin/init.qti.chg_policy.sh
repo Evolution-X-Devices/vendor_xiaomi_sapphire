@@ -1,7 +1,7 @@
 #! /vendor/bin/sh
 
 #
-# Copyright (c) 2019-2021 Qualcomm Technologies, Inc.
+# Copyright (c) 2019-2021, 2023, Qualcomm Technologies, Inc.
 # All Rights Reserved.
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 #
@@ -11,8 +11,7 @@
 export PATH=/vendor/bin
 
 soc_id=`getprop ro.vendor.qti.soc_id`
-if [ "$soc_id" -eq 518 ] || [ "$soc_id" -eq 415 ] || [ "$soc_id" -eq 439 ] || [ "$soc_id" -eq 450 ] || [ "$soc_id" -eq 475 ] || [ "$soc_id" -eq 515 ]; then
-    echo "ro.vendor.qti.soc_id = 518 is here"
+if [ "$soc_id" -eq 415 ] || [ "$soc_id" -eq 439 ] || [ "$soc_id" -eq 450 ] || [ "$soc_id" -eq 475 ] || [ "$soc_id" -eq 515 ]; then
     setprop persist.vendor.hvdcp_opti.start 2
     exit 0
 fi
@@ -36,6 +35,7 @@ else
 	find /sys/class/qc-vdm/ -type f -maxdepth 1 | xargs chown system.system
 	find /sys/class/charge_pump/ -type f -maxdepth 1 | xargs chown system.system
 	find /sys/class/qcom-battery/ -type f -maxdepth 1 | xargs chown system.system
+	find /sys/class/qbg/qbg_context -type f -maxdepth 1 | xargs chown system.system
 
 	for i in 0 1 2 3 4 5 6 7 8 9
 	do
@@ -44,6 +44,12 @@ else
 			find /sys/bus/iio/devices/iio:device$i/ -type f -maxdepth 1 | xargs chown system.system
 		fi
 	done
+fi
+
+aon_present=`getprop ro.vendor.qc_aon_presence`
+if [ "$aon_present" -eq 1 ]; then
+    setprop persist.vendor.hvdcp_opti.start 2
+    exit 0
 fi
 
 setprop persist.vendor.hvdcp_opti.start 1

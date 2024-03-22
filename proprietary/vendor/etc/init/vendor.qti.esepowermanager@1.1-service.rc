@@ -5,7 +5,7 @@
 #
 
 service qti_esepowermanager_service_1_1 /vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
-    class early_hal
+    class hal
     user system
     group nfc system
     disabled
