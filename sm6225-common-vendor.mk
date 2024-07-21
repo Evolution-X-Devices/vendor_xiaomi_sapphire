@@ -247,6 +247,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/egl/libVkLayer_ADRENO_qprofiler.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libVkLayer_ADRENO_qprofiler.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
+    vendor/xiaomi/sm6225-common/proprietary/vendor/lib/hw/gralloc.bengal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.bengal.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/hw/sound_trigger.primary.bengal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.bengal.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/hw/vendor.qti.memory.pasrmanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.memory.pasrmanager@1.0-impl.so \
@@ -267,7 +268,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdfw_remote_api.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
+    vendor/xiaomi/sm6225-common/proprietary/vendor/lib/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl_plugin.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
+    vendor/xiaomi/sm6225-common/proprietary/vendor/lib/libdisplayconfig.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayconfig.qti.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/libdlbpreg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdlbpreg.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/libeai_fixed_32.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeai_fixed_32.so \
@@ -346,6 +349,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/hw/com.dsi.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.dsi.ant@1.0-impl.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/hw/displayfeature.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/displayfeature.default.so \
+    vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/hw/gralloc.bengal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.bengal.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/hw/sound_trigger.primary.bengal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.bengal.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
@@ -403,6 +407,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneoplookup.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneqmiutils.so \
+    vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl_plugin.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libcodec2_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_ac4dec.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libcodec2_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_ddpdec.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libcodec2_store_dolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_store_dolby.so \
@@ -557,6 +562,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libqti-qesdk-secure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-qesdk-secure.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-utils.so \
+    vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libqti_vndfwk_detect_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti_vndfwk_detect_vendor.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libqtikeymint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymint.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
@@ -589,6 +595,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustedapploader.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libvmmem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvmmem.so \
+    vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libvndfwk_detect_jni.qti_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvndfwk_detect_jni.qti_vendor.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwqe.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libwvaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvaidl.so \
