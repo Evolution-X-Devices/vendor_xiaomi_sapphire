@@ -560,7 +560,6 @@ INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('714','911','','');
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('714','104','','');
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('716','112','','');
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('716','911','','');
-INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('716','105','','');
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('722','112','','');
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('722','911','','');
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('724','112','','');
@@ -943,7 +942,6 @@ INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('716','10','105','',''
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('716','10','112','','');
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('716','10','119','','');
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('716','10','911','','');
-INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('716','17','105','','');
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('716','17','112','','');
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('716','17','911','','');
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('716','20','105','','');
