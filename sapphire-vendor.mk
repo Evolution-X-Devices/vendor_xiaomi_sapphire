@@ -546,6 +546,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sapphire/proprietary/vendor/firmware/vpu20_1v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v_unsigned.mbn \
     vendor/xiaomi/sapphire/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
     vendor/xiaomi/sapphire/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
+    vendor/xiaomi/sapphire/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
+    vendor/xiaomi/sapphire/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/xiaomi/sapphire/proprietary/vendor/lib/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.st21nfc.st.so \
     vendor/xiaomi/sapphire/proprietary/vendor/lib/rfsa/adsp/libSnpeHtpV68Skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libSnpeHtpV68Skel.so \
     vendor/xiaomi/sapphire/proprietary/vendor/lib/rfsa/adsp/libSnpeHtpV69Skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libSnpeHtpV69Skel.so \
