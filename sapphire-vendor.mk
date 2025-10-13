@@ -11,16 +11,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sapphire/proprietary/odm/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_product_strategies.xml \
     vendor/xiaomi/sapphire/proprietary/odm/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_stream_volumes.xml \
     vendor/xiaomi/sapphire/proprietary/odm/etc/camera/camerabooster.json:$(TARGET_COPY_OUT_ODM)/etc/camera/camerabooster.json \
-    vendor/xiaomi/sapphire/proprietary/odm/etc/permissions/sku_n7n/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_n7n/android.hardware.nfc.hce.xml \
-    vendor/xiaomi/sapphire/proprietary/odm/etc/permissions/sku_n7n/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_n7n/android.hardware.nfc.hcef.xml \
-    vendor/xiaomi/sapphire/proprietary/odm/etc/permissions/sku_n7n/android.hardware.nfc.uicc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_n7n/android.hardware.nfc.uicc.xml \
-    vendor/xiaomi/sapphire/proprietary/odm/etc/permissions/sku_n7n/android.hardware.nfc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_n7n/android.hardware.nfc.xml \
-    vendor/xiaomi/sapphire/proprietary/odm/etc/permissions/sku_n7n/android.hardware.se.omapi.uicc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_n7n/android.hardware.se.omapi.uicc.xml \
-    vendor/xiaomi/sapphire/proprietary/odm/etc/permissions/sku_n7n_ss/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_n7n_ss/android.hardware.nfc.hce.xml \
-    vendor/xiaomi/sapphire/proprietary/odm/etc/permissions/sku_n7n_ss/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_n7n_ss/android.hardware.nfc.hcef.xml \
-    vendor/xiaomi/sapphire/proprietary/odm/etc/permissions/sku_n7n_ss/android.hardware.nfc.uicc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_n7n_ss/android.hardware.nfc.uicc.xml \
-    vendor/xiaomi/sapphire/proprietary/odm/etc/permissions/sku_n7n_ss/android.hardware.nfc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_n7n_ss/android.hardware.nfc.xml \
-    vendor/xiaomi/sapphire/proprietary/odm/etc/permissions/sku_n7n_ss/android.hardware.se.omapi.uicc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_n7n_ss/android.hardware.se.omapi.uicc.xml \
     vendor/xiaomi/sapphire/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
     vendor/xiaomi/sapphire/proprietary/vendor/bin/STFlashTool:$(TARGET_COPY_OUT_VENDOR)/bin/STFlashTool \
     vendor/xiaomi/sapphire/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
@@ -826,6 +816,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libar-pal \
+    libadsp_default_listener \
+    libadsprpc \
     libagm \
     libar-gsl \
     liblmthermallistner \
