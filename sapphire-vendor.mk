@@ -825,14 +825,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sapphire/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 PRODUCT_PACKAGES += \
-    libar-pal \
+    libar-pal_vendor \
     libadsp_default_listener \
     libadsprpc \
     libagm \
-    libar-gsl \
+    libar-gsl_vendor \
     liblmthermallistner \
-    liblx-osal \
+    liblx-osal_vendor \
     libthermalclient \
     vendor.qti.hardware.AGMIPC@1.0-impl \
-    vendor.qti.hardware.pal@1.0-impl \
+    vendor.qti.hardware.pal@1.0-impl_vendor \
     audiosphere

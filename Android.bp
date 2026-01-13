@@ -3,17 +3,11 @@
 //
 
 soong_namespace {
-    imports: [
-        "device/xiaomi/sm6225-common",
-        "hardware/qcom-caf/sm6225",
-        "hardware/xiaomi",
-        "vendor/xiaomi/sm6225-common",
-        "vendor/qcom/opensource/commonsys-intf/display",
-    ],
 }
 
 cc_prebuilt_library_shared {
-    name: "libar-pal",
+    name: "libar-pal_vendor",
+    stem: "libar-pal",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -94,7 +88,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libar-gsl",
+    name: "libar-gsl_vendor",
+    stem: "libar-gsl",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -132,7 +127,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "liblx-osal",
+    name: "liblx-osal_vendor",
+    stem: "liblx-osal",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -189,7 +185,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.pal@1.0-impl",
+    name: "vendor.qti.hardware.pal@1.0-impl_vendor",
+    stem: "vendor.qti.hardware.pal@1.0-impl",
     owner: "xiaomi",
     strip: {
         none: true,
