@@ -6,8 +6,7 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-    name: "libar-pal_vendor",
-    stem: "libar-pal",
+    name: "libar-pal",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -88,8 +87,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libar-gsl_vendor",
-    stem: "libar-gsl",
+    name: "libar-gsl",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -127,8 +125,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "liblx-osal_vendor",
-    stem: "liblx-osal",
+    name: "liblx-osal",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -185,8 +182,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.pal@1.0-impl_vendor",
-    stem: "vendor.qti.hardware.pal@1.0-impl",
+    name: "vendor.qti.hardware.pal@1.0-impl",
     owner: "xiaomi",
     strip: {
         none: true,
