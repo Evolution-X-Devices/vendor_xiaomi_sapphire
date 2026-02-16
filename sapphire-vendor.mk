@@ -826,8 +826,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libar-pal \
-    libadsp_default_listener \
-    libadsprpc \
     libagm \
     libar-gsl \
     liblmthermallistner \
