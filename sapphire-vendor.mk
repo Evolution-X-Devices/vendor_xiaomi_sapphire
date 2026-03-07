@@ -829,7 +829,7 @@ PRODUCT_PACKAGES += \
     libagm \
     libar-gsl \
     liblmthermallistner \
-    liblx-osal \
+    liblx-osal_vendor \
     libthermalclient \
     vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.pal@1.0-impl \
