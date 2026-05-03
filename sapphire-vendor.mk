@@ -826,10 +826,12 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libar-pal \
+    libadsp_default_listener \
+    libadsprpc \
     libagm \
     libar-gsl \
     liblmthermallistner \
-    liblx-osal_vendor \
+    liblx-osal \
     libthermalclient \
     vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.pal@1.0-impl \

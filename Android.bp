@@ -125,8 +125,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "liblx-osal_vendor",
-    stem: "liblx-osal",
+    name: "liblx-osal",
     owner: "xiaomi",
     strip: {
         none: true,
